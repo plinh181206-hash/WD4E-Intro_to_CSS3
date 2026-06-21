@@ -1,0 +1,118 @@
+/* =============================
+   POCKET LOVE - STYLE.CSS
+   ============================= */
+
+/* ----- BODY ----- */
+body {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    background-color: #fff0f5;  /* Đổi màu nền tại đây */
+    color: #4a4a4a;
+}
+
+/* ----- HEADER ----- */
+header {
+    background-color: #ffb3c6;  /* Đổi màu header tại đây */
+    text-align: center;
+    padding: 20px;
+}
+
+/* ----- NAV ----- */
+nav {
+    background-color: #ff85a1;  /* Đổi màu nav tại đây */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* ----- LIST ITEM (li) ----- */
+li {
+    display: inline-block;
+    width: 27%;
+    text-align: center;
+    line-height: 45px;
+    background-color: #ffc2d4;  /* Đổi màu nút nav tại đây */
+}
+
+li a {
+    color: #6d0027;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* ----- H1 ----- */
+h1 {
+    font-size: 36px;
+    color: #6d0027;  /* Đổi màu tiêu đề chính tại đây */
+    margin: 10px 0 5px;
+}
+
+/* ----- MAIN ----- */
+main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff8fa;
+}
+
+/* ----- PARAGRAPHS (p) ----- */
+p {
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
+
+/* ----- FOOTER ----- */
+footer {
+    background-color: #ffb3c6;  /* Đổi màu footer tại đây */
+    text-align: center;
+    padding: 15px;
+    color: #6d0027;
+    font-size: 14px;
+}
+
+/* ----- GALLERY (trang houses.html) ----- */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.house-card {
+    width: 30%;
+    background-color: #fff0f5;
+    padding: 12px;
+    text-align: center;
+}
+
+.house-card img {
+    width: 100%;
+    height: auto;
+}
+
+.house-card h3 {
+    color: #c9184a;
+    margin: 10px 0 5px;
+}
+
+/* ----- TAGLINE (dòng phụ dưới h1) ----- */
+.tagline {
+    color: #a4133c;
+    font-size: 15px;
+    font-style: italic;
+}
+
+/* ----- SECTION (trang tips.html) ----- */
+section {
+    margin-bottom: 25px;
+    border-left: 4px solid #ff85a1;  /* Đổi màu viền trái section tại đây */
+    padding-left: 15px;
+}
+
+section h2 {
+    color: #c9184a;
+    font-size: 20px;
+}
