@@ -24,6 +24,9 @@ nav {
 }
 
 nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -76,8 +79,8 @@ footer {
 
 /* ----- GALLERY (trang houses.html) ----- */
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
 
@@ -115,4 +118,31 @@ section {
 section h2 {
     color: #c9184a;
     font-size: 20px;
+}
+
+.skip {
+    position: absolute;
+    left: -9999px;
+}
+.skip:focus {
+    position: static;
+    display: block;
+    background-color: #ff85a1;
+    color: #6d0027;
+    padding: 8px;
+    text-align: center;
+}
+
+.flex-tips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tip-card {
+    width: 45%;
+    background-color: #fff0f5;
+    padding: 15px;
+    border-left: 4px solid #ff85a1;
+    box-sizing: border-box;
 }
